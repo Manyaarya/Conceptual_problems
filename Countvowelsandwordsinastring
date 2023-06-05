@@ -1,0 +1,34 @@
+#include <iostream>
+#include <string>
+
+int main()
+{
+    std::string str="How are you";
+    int vowels=0;
+    int consonants=0;
+    int space=0;
+    
+    for(int i=0;i<str[i]!='\0';i++)
+    {
+        if(str[i]=='A' || str[i]=='E' || str[i]=='I'  || str[i]=='O' || str[i]=='U' || str[i]=='a' || str[i]=='e' || str[i]=='i'  || str[i]=='o' || str[i]=='u')
+        
+        
+          vowels++;
+          
+        else if(str[i]==' ')
+            
+              space++;
+        
+            else
+                
+              consonants++;
+            
+        }
+            
+            
+            std::cout<<vowels<<" -vowels"<<std::endl;
+            std::cout<<space+1<<" words"<<std::endl;
+            std::cout<<consonants<<" consonants"<<std::endl;
+          
+        }
+    
