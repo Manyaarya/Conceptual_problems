@@ -1,0 +1,13 @@
+#include <iostream>
+#include <string>
+
+int main()
+{
+   
+   std::string email="manyam@gmail.com";
+   int i=(int)email.find('@');
+   std::string uname=email.substr(0,i);
+   
+   std::cout<<"username is - "<<uname<<std::endl;
+   
+        }
